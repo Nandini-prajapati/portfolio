@@ -171,47 +171,4 @@ $(window).on("load",function (){
         $(this).addClass('active').siblings().removeClass('active');
 
     });
-
-
-    // contact form validator
-    $('#contact-form').validator();
-
-    $('#contact-form').on('submit', function (e) {
-        if (!e.isDefaultPrevented()) {
-
-            const name = document.getElementById("form_name").value;
-            const email = document.getElementById("form_email").value;
-            const subject = document.getElementById("form_subject").value || "New Contact Form Message";
-            const message = document.getElementById("form_message").value;
-
-            const mailtoLink = `mailto:ishithaprajapathi@gmail.com
-            ?subject=${encodeURIComponent(subject)}
-            &body=${encodeURIComponent(
-                    `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-                )}`;
-
-                window.location.href = mailtoLink;
-                return;
-            var url = "contact.php";
-
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
-                success: function (data)
-                {
-                    var messageAlert = 'alert-' + data.type;
-                    var messageText = data.message;
-
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                    if (messageAlert && messageText) {
-                        $('#contact-form').find('.messages').html(alertBox);
-                        $('#contact-form')[0].reset();
-                    }
-                }
-            });
-            return false;
-        }
-    });
-
 });
