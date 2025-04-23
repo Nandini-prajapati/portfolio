@@ -917,7 +917,7 @@ span, a, a:hover {
     max-height: 160px;
     max-width: 100%;
 }
-.contact .form button {
+button {
     background: transparent;
     border: 0;
 }
