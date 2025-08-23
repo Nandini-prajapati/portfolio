@@ -28,7 +28,8 @@ $(function() {
         topOffset: -63            // offste (in px) for fixed top navigation
     });
 
-
+    // Initiate the wowjs
+    new WOW().init();
 
     // navbar scrolling background
     wind.on("scroll",function () {
