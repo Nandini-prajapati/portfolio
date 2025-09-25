@@ -115,13 +115,13 @@ $(function() {
 
 
     // magnificPopup
-    $('.gallery').magnificPopup({
-        delegate: '.link',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
+    // $('.gallery').magnificPopup({
+    //     delegate: '.link',
+    //     type: 'image',
+    //     gallery: {
+    //         enabled: true
+    //     }
+    // });
 
 
     // countUp

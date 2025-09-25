@@ -752,7 +752,7 @@ span, a, a:hover {
 }
 .portfolio .item-img h6 {
     color: #C49B66;
-    font-size: 13px;
+    font-size: 15px;
     position: relative;
     margin-bottom: 10px;
     -webkit-transform: translateY(-15px);
@@ -761,6 +761,7 @@ span, a, a:hover {
     transition: all .6s;
     opacity: 0;
     z-index: 5;
+    margin-top: 30px;
 }
 .portfolio .item-img .link {
     position: absolute;
