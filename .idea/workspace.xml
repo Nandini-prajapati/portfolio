@@ -7,6 +7,7 @@
     <list default="true" id="6c1781c2-6037-4ee6-893b-536ee33e8e69" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/hero2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +50,8 @@
       <recent name="D:\xampp\htdocs\Development\Portfolio\img\portfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\Development\Portfolio\img\portfolio" />
       <recent name="D:\xampp\htdocs\Development\Portfolio\img" />
+      <recent name="D:\xampp\htdocs\Development\Portfolio\img\portfolio" />
       <recent name="D:\xampp\htdocs\Development\Portfolio" />
       <recent name="D:\xampp\htdocs\Development\Portfolio\img\blog" />
     </key>
@@ -83,7 +84,8 @@
       <workItem from="1758869292923" duration="6553000" />
       <workItem from="1765434647070" duration="3537000" />
       <workItem from="1765439529650" duration="761000" />
-      <workItem from="1765446492494" duration="39000" />
+      <workItem from="1765446492494" duration="10188000" />
+      <workItem from="1765513312880" duration="8628000" />
     </task>
     <servers />
   </component>
