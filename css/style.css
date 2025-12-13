@@ -739,6 +739,7 @@ span, a, a:hover {
 .portfolio .item-img {
     position: relative;
     overflow: hidden;
+    height: 400px;
 }
 .portfolio .item-img h5 {
     font-size: 18px;
